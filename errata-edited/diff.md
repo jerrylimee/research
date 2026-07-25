@@ -106,6 +106,77 @@
 
 31. 5128 - same as 5127
 
-32.
+32. 5131 - description not consistent with Section 2.2 of the same RFC's specification
+
+    **Fix:** looked at those sections to see their specification on the requirement of semantics mirroring Section 7.2 of RFC6241
+
+33. 5150 - property name not consistent with type of value it receives
+
+    **Fix:** corrected property name to plural form
+    **OR:** looked at examples in Section 4.2.1.1 of the same RFC to see how they handled the property names
+
+34. 5255 - description doesn't follow the example
+
+    **Fix:** looked at the example and adjusted formal definition
+
+35. 5274 - prefix missing in namespace declaration tags **there is no way of fixing this without knowledge on what XML instances need prefixes**
+
+36. 5324 - incorrect PSID value **there is no way of fixing this without knowledge on what PSID values are correct for IPv4, IPv6 and port ranges presented in the example**
+
+37. 5342 - definition inconsistent with text from the same section Section 4.11
+
+    **Fix:** looked at the context to see their specification on how to set the KeepaliveTimer
+
+38. 5351 - inconsistent with Section 2.5.2
+
+    **Fix:** looked at that section to see their specification on their handling of multiple bytes types with HEXBIN and adjusted definition
+
+39. 5353 - error in calculation
+
+    **Fix:** calculated what the correct number would be
+
+40. 5374 - country tag inconsistent with IANA
+
+    **Fix:** looked at IANA language subtag registry
+
+41. 5387 - country tag inconsistent with IANA
+
+    **Fix:** looked at IANA language subtag registry
+
+42. 5402 - specification not corresponding to the diagram (typo)
+
+    **Fix:** looked at diagram
+
+43. 5543 - inconsistent with Section 3.12.5
+
+    **Fix:** looked at Section 3.12.5 for the original schema definition for the Confidence element
+
+44. 5544 - inconsistent with Section 3.18
+
+    **Fix:** looked at Section 3.18 for the requirement on DomainData and Address and adjusted formal code
+
+45. 5545 - terminology inconsistent with IANA
+
+    **Fix:** looked at IANA language registry
+
+46. 5566 - inconsistent with Section 6.1 of RFC 7591
+
+    **Fix:** looked at other RFC's requirement on "gap" leaf and adjusted definition
+
+47. 5622 - incorrect calculation of maximum message length
+
+    **Fix:** recalculated, but  **there is no way of fixing this without knowledge on how long the message length field is, which is explained in original RFC but not in original text**
+
+48. 5715 - terminology inconsistent with RFC 8225 and the provided example; one used "array", one used "object" (it's an object containing an array, not simply an array)
+
+    **Fix:** find and replace almost all occurrences of array to object; looked at other RFC's requirement on "dest" element and adjusted definition
+
+49. 5729 - inconsistent with Section 8
+
+    **Fix:** looked at Section 8 for the requirement on JWS-signed response objects and adjusted natural language definition
+
+50. 5732 - logically prevents the process outlined in Section 8.2 of the same RFC from ever happening
+
+    **Fix:** looked at Section 8.2 for the requirement on the retry mechanism and adjusted natural language definition
 
 closed/open interval (≤ or < ?)
