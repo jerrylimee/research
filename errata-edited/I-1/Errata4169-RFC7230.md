@@ -44,7 +44,4 @@ Section 7 says:
 
 ## Issue description
 
-Section 7 of RFC 7230 defines ABNF rules for HTTP list elements and provides example valid values
-for `example-list`. One of the listed example values does not actually conform to the `1#element`
-rule as defined, creating an inconsistency between the ABNF grammar and the stated examples. This
-affects how implementations should parse and validate lists of elements in HTTP messages.
+Section 7 of RFC 7230 defines ABNF rules for HTTP list elements and provides example valid values for `example-list`. One of the listed example values does not actually conform to the `1#element` rule as defined, creating an inconsistency between the ABNF grammar and the stated examples. This affects how implementations should parse and validate lists of elements in HTTP messages.
