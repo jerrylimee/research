@@ -203,3 +203,4 @@
 118. 8134 - same as 8131
 119. 8256 - diagram contradicts textual description \
     **Fix:** corrected diagram label by looking at textual description
+120. 3944 - typo; **there is no way of fixing this without knowing that ODU is wrong and ODTU is the correct term**
