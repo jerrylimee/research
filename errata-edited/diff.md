@@ -204,3 +204,36 @@
 119. 8256 - diagram contradicts textual description \
     **Fix:** corrected diagram label by looking at textual description
 120. 3944 - typo; **there is no way of fixing this without knowing that ODU is wrong and ODTU is the correct term**
+121. 3946 - wrong message type **there is no way of fixing this without knowing what is the usual mechanism to teardown old control state**
+122. 4132 - wrong indentation **there is no way of fixing this without knowing what is the correct indentation**
+123. 4471 - definition of LOCK4denied response inconsistent with Section 16.11.4 \
+    **Fix:** looked at Section 16.11.4 for the lock type information and adjusted definition
+124. 4549 - wrong type of AVP used **there is no way of fixing this without knowing what is the correct AVP to be used**
+125. 4664 - wrong term **there is no way of fixing this without knowing how the overlap occurs**
+126. 4673 - **there is no way of fixing this without knowing that pcePcepSessDown requires IDLE state**
+127. 5066 - **there is no way of fixing this without knowing the set of structure that need to be canonically encoded**
+128. 5078 - **there is no way of fixing this without guessing the author's intent and how Content-Format code attribute appears in a link**
+129. 5225 - **there is no way of fixing this without knowing that for MAP-T the complete IPv4 source address must be embedded in the interface-identifier for correct translation in the case of an IPv4 prefix**
+130. 5376 - wrong message type **there is no way of fixing this without knowing what message type PCC needs to issue**
+131. 5395 - incorrect reference \
+    **Fix:** looked at context to see which RFC contains information on DNS records that would be classified "indeterminate"
+132. 5474 - closed/open interval (≥ or > ?) \
+    **Fix**: looked at context to see what the ranges do not overlap with the selected representation
+133. 5483 - definition inconsistent with Section 7.4.2 of the same RFC and RFC 7748 \
+    **Fix:** looked at Section 18.50.3 and other RFC's on description of byte string inputs to the corresponding ECDH scalar multiplication function and adjusted definition
+134. 5489 - wrong substatement type **there is no way of fixing this without knowing what is the correct statement that contains substatements that identify properties to delete**
+135. 5615 - wrong type of header **field expertise required**
+136. 5650 - quotes wrong COSE registry \
+    **Fix:** looked at COSE registries that actually contain the set of curve identifiers
+137. 5664 - wrong terms **field expertise required**
+138. 5669 - wrong terms \
+    **Fix:** looked at context to see what the registry in this section is about (not curves but key types)
+139. 5687 - wrong terms \
+    **Fix:** looked at context to see what is the parameter sent in the authorization/token request
+140. 5703 - incorrect reference (referenced the wrong section) \
+    **Fix:** looked at RFC8017 to see which section contains relevant information
+141. 5756 - wrong name used in YANG module \
+    **Fix:** looked at section and located which RFC contains a concept with a name similar to "system-restart" and searched for the actual name of the concept which is "system-reset"
+142. 5845 - inconsistent with multiple other sections of the same RFC \
+    **Fix:** looked at instances of "upon method completion" in other sections to see how they handled it and adjusted natural language definition
+143. 
