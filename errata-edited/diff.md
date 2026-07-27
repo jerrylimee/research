@@ -236,4 +236,139 @@
     **Fix:** looked at section and located which RFC contains a concept with a name similar to "system-restart" and searched for the actual name of the concept which is "system-reset"
 142. 5845 - inconsistent with multiple other sections of the same RFC \
     **Fix:** looked at instances of "upon method completion" in other sections to see how they handled it and adjusted natural language definition
-143. 
+143. 5869 - wrong capitalization **field knowledge required**
+144. 5870 - version tag missing from identifier **field knowledge required**
+145. 5878 - wrong variable name \
+    **Fix:** looked at the normative (correct) definition and adjusted description
+146. 5945 - incorrect fragmentation of IPv6 packet **field knowledge required**
+147. 6142 - overly strict **field knowledge required**
+148. 6183 - wrong subject **field knowledge required**
+149. 6301 - outdated and ambiguous \
+    **Fix:** looked at other RFC's Section 6 for treatment of any extra object included after SRP and LSP objects in reclaim delegation request and adjusted code definition
+150. 6385 - statement swap roles **field knowledge required**
+151. 6570 - missed an item **fkr (field knowledge required)**
+152. 6620 - content type inconsistent with RFC 8908 \
+    **Fix:** looked at other RFC's for the relevant Content-Type and adjusted natural language specification
+153. 6654 - packet name typo **fkr**
+154. 6716 - wrong full name of abbreviation TPM \
+    **Fix:** looked at context to see which TPM could possibly be referenced (hint: it's not fucking Transport Performance Metrics) and adjusted natural language specification
+155. 6809 - typo **fkr**
+156. 6829 - uses terms out of the scope of the RFC document \
+    **Fix:** looked at other section in the same RFC and adjusted wording
+157. 6866 - nonexistent leaf name **fkr**
+158. 6873 - **fkr**
+159. 6938 - wrong term \
+    **Fix:** looked at context to see the size of which subject is being discussed and adjusted natural language specification
+160. 6955 - wrong term **fkr**
+161. 7020 - missing item **fkr**
+162. 7058 - scope too wide **fkr** \
+    **Fix:** consider cases where the original specification may not work
+163. 7160 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+164. 7312 - wrong module name **fkr**
+165. 7313 - wrong prefix **fkr**
+166. 7419 - wrong preferred list **fkr**
+167. 7423 - wrong field **fkr**
+168. 7543 - untrue description **fkr**
+169. 7576 - comment inconsistent with code it comments **fkr**
+170. 7588 - incorrect reference \
+    **Fix:** looked at IEEE.802.11-2016 and see which Annex actually contains mappings and adjusted description
+171. 7654 - field names referenced from RFC 4760 is not verbatim \
+    **Fix:** looked at other RFC's field name similar to the one in the original text and adjusted description
+172. 7683 - typo **fkr**
+173. 7684 - wrong extended community **fkr and context outside of the original text**
+174. 7703 - **fkr**
+175. 7734 - wrong number of octets **fkr**
+176. 7736 - wrong BGP-LS TLV **fkr**
+177. 7737 - same as 7736 **fkr**
+178. 7780 - text not updated with the pull request on GitHub \
+    **Fix:** looked at GitHub pull request and adjusted text
+179. 7819 - **fkr**
+180. 7822 - incorrect version number **fkr**
+181. 7947 - address inconsistent with the gratuitous ARP protocol **fkr**
+182. 7949 - same as 7947 **fkr**
+183. 7955 - wrong bits used **fkr**
+184. 8103 - wrong field referenced **fkr**
+185. 8104 - **fkr and context outside of the original text**
+186. 8166 - closed/open interval (≥ or > ?) \
+    **Fix**: looked at text below the original text and adjusted description
+187. 8183 - **fkr**
+188. 8184 - same as 8183 **fkr**
+189. 8199 - **fkr**
+190. 3915 - overgeneralized **fkr**
+191. 4508 - does not correctly enforce the case sensitivity of the BEGIN and END keywords **fkr**
+192. 4677 - **fkr**
+193. 5113 - diagram inconsistent with Section 13 \
+    **Fix:** looked at Section 13 for correct code points and adjusted diagram
+194. 5436 - ABNF does match its textual description \
+    **Fix:** looked at the textual description of ABNF and adjusted code
+195. 5610 - capitalization typo **fkr**
+196. 6158 - wrong term **fkr and context outside of the original text**
+197. 6209 - untrue statement **fkr**
+198. 6517 - untrue statement **fkr** \
+    **Fix:** searched for data-plane egress link protection mechanisms in all RFC documents to see if it's actually nonexistent
+199. 7176 - incorrect reference \
+    **Fix:** go to link and see if the website actually has HTTPS license
+200. 7334 - syntactically incomplete **fkr**
+201. 7336 - inconsistent with CDDL syntax **fkr**
+202. 7752 - schema violates the "Unique Particle Attribution" rule for XSD 1.0 \
+    **Fix:** looked at violates the "Unique Particle Attribution" rule for XSD 1.0 and adjusted code
+203. 4240 - nonexistent nodes **fkr**
+204. 4439 - undefined "word" in code definition **fkr**
+205. 6119 - missing a section in reference \
+    **Fix:** looked at context (what the surrounding text was referencing) and appended the missing section
+206. 7093 - indeterminate language replaced with a clearer one **fkr** \
+    **Fix:** considered what part of the original text feels uncertain and adjusted it
+207. 7652 - **fkr**
+208. 7894 - "active" ambiguous \
+    **Fix:** looked at mailing list to confirm author's intended meaning
+209. 4725 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+210. 4726 - same as 4725 - **fkr**
+211. 4938 - mismatch between two parties in specification unaddressed **fkr** \
+    **Fix:** looked at mailing list to confirm the eventual consensus and add that consensus to the text
+212. 4948 - payload missing before storing response **fkr**
+213. 5540 - incomprehensive \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+214. 5554 - **fkr and context outside of the original text**
+215. 5638 - copy-paste error: one extra property and one missing \
+    **Fix:** examined original text to see duplicate bullet points and mirrored first three to the last three
+216. 5775 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+217. 6472 - original description not working \
+    **Fix:** go through description and see what extra information is needed for the description to work
+218. 7081 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+219. 7239 - scope too wide **fkr** \
+    **Fix:** consider cases where the original specification may not work
+220. 7250 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+221. 7303 - missing severity level for close_notify alerts **fkr**
+222. 7311 - missing NETCONF error-tag **fkr**
+223. 7384 - missing two definitions **fkr and context outside of the original text**
+224. 4794 - **fkr**
+225. 4916 - missing substatements
+226. 5583 - schema inconsistent with narrated text in Section 3.1.5 \
+    **Fix:** looked at Section 3.1.5 for an enumerated value of "training" for the action attribute and adjusted schema
+227. 5768 - variable length of the MAC function output in Section 5 inconsistent with fixed length of 20 octets based on Section 4.2.13 \
+    **Fix:** looked at Section 4.2.13 for its definition of Compound MAC fields in the Crypto-Binding TLV, went with that definition and adjusted text
+228. 5807 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+229. 6123 - factually incorrect **fkr**
+230. 6157 - too specific **fkr** \
+    **Fix:** consider cases where the original specification may not work
+231. 6277 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+232. 6752 - incomprehensive **fkr** \
+    **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
+233. 7804 - inconsistent with actual specification of the ADN-only mode **fkr**
+234. 4413 - incorrect reference (referencing nonexistent sections within the same RFC) \
+    **Fix:** looked at other Sections' structure and subtitles to find the correct reference
+235. 4509 - inconsistent with IANA registry \
+    **Fix:** looked at IANA registry and adjusted formal definition
+236. 5868 - citation needed \
+    **Fix:** looked at context and searched for the ECDSA-Sig-Value structure that is relevant to the context and adjusted description
+237. 6263 - incorrect reference \
+    **Fix:** looked at context to see which RFC contains information on the OneAsymmetricKey ASN.1 structure
+238. 7866 - missing a section in existing reference \
+    **Fix:** looked at RFC 3986 to see which section contains information on the reserved character list
