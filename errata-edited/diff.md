@@ -319,56 +319,57 @@
     **Fix:** looked at context (what the surrounding text was referencing) and appended the missing section
 206. 7093 - indeterminate language replaced with a clearer one **fkr** \
     **Fix:** considered what part of the original text feels uncertain and adjusted it
-207. 7652 - **fkr**
-208. 7894 - "active" ambiguous \
+207. 7102 - **fkr and context outside of the original text**
+208. 7652 - **fkr**
+209. 7894 - "active" ambiguous \
     **Fix:** looked at mailing list to confirm author's intended meaning
-209. 4725 - incomprehensive **fkr** \
+210. 4725 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-210. 4726 - same as 4725 - **fkr**
-211. 4938 - mismatch between two parties in specification unaddressed **fkr** \
+211. 4726 - same as 4725 - **fkr**
+212. 4938 - mismatch between two parties in specification unaddressed **fkr** \
     **Fix:** looked at mailing list to confirm the eventual consensus and add that consensus to the text
-212. 4948 - payload missing before storing response **fkr**
-213. 5540 - incomprehensive \
+213. 4948 - payload missing before storing response **fkr**
+214. 5540 - incomprehensive \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-214. 5554 - **fkr and context outside of the original text**
-215. 5638 - copy-paste error: one extra property and one missing \
+215. 5554 - **fkr and context outside of the original text**
+216. 5638 - copy-paste error: one extra property and one missing \
     **Fix:** examined original text to see duplicate bullet points and mirrored first three to the last three
-216. 5775 - incomprehensive **fkr** \
+217. 5775 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-217. 6472 - original description not working \
+218. 6472 - original description not working \
     **Fix:** go through description and see what extra information is needed for the description to work
-218. 7081 - incomprehensive **fkr** \
+219. 7081 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-219. 7239 - scope too wide **fkr** \
+220. 7239 - scope too wide **fkr** \
     **Fix:** consider cases where the original specification may not work
-220. 7250 - incomprehensive **fkr** \
+221. 7250 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-221. 7303 - missing severity level for close_notify alerts **fkr**
-222. 7311 - missing NETCONF error-tag **fkr**
-223. 7384 - missing two definitions **fkr and context outside of the original text**
-224. 4794 - **fkr**
-225. 4916 - missing substatements
-226. 5583 - schema inconsistent with narrated text in Section 3.1.5 \
+222. 7303 - missing severity level for close_notify alerts **fkr**
+223. 7311 - missing NETCONF error-tag **fkr**
+224. 7384 - missing two definitions **fkr and context outside of the original text**
+225. 4794 - **fkr**
+226. 4916 - missing substatements
+227. 5583 - schema inconsistent with narrated text in Section 3.1.5 \
     **Fix:** looked at Section 3.1.5 for an enumerated value of "training" for the action attribute and adjusted schema
-227. 5768 - variable length of the MAC function output in Section 5 inconsistent with fixed length of 20 octets based on Section 4.2.13 \
+228. 5768 - variable length of the MAC function output in Section 5 inconsistent with fixed length of 20 octets based on Section 4.2.13 \
     **Fix:** looked at Section 4.2.13 for its definition of Compound MAC fields in the Crypto-Binding TLV, went with that definition and adjusted text
-228. 5807 - incomprehensive **fkr** \
+229. 5807 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-229. 6123 - factually incorrect **fkr**
-230. 6157 - too specific **fkr** \
+230. 6123 - factually incorrect **fkr**
+231. 6157 - too specific **fkr** \
     **Fix:** consider cases where the original specification may not work
-231. 6277 - incomprehensive **fkr** \
+232. 6277 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-232. 6752 - incomprehensive **fkr** \
+233. 6752 - incomprehensive **fkr** \
     **Fix:** looked at what the case is referring to and considered other potential cases and appended those cases
-233. 7804 - inconsistent with actual specification of the ADN-only mode **fkr**
-234. 4413 - incorrect reference (referencing nonexistent sections within the same RFC) \
+234. 7804 - inconsistent with actual specification of the ADN-only mode **fkr**
+235. 4413 - incorrect reference (referencing nonexistent sections within the same RFC) \
     **Fix:** looked at other Sections' structure and subtitles to find the correct reference
-235. 4509 - inconsistent with IANA registry \
+236. 4509 - inconsistent with IANA registry \
     **Fix:** looked at IANA registry and adjusted formal definition
-236. 5868 - citation needed \
+237. 5868 - citation needed \
     **Fix:** looked at context and searched for the ECDSA-Sig-Value structure that is relevant to the context and adjusted description
-237. 6263 - incorrect reference \
+238. 6263 - incorrect reference \
     **Fix:** looked at context to see which RFC contains information on the OneAsymmetricKey ASN.1 structure
-238. 7866 - missing a section in existing reference \
+239. 7866 - missing a section in existing reference \
     **Fix:** looked at RFC 3986 to see which section contains information on the reserved character list
