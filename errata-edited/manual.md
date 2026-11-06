@@ -22,3 +22,6 @@ All the fixes in this document have been compared with ground truths and verifie
 18. 4839 - deleted `name or`
 19. 4865 - `to 128.` changed to `to 96.`
 20. 4874 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+21. 4880 - `No integrity protection` changed to `Null` **INCORRECT** should be `Unassigned`
+22. 4935 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+23. 4949 - `4.02` changed to ``
