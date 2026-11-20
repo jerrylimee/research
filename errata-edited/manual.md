@@ -25,3 +25,10 @@ All the fixes in this document have been compared with ground truths and verifie
 21. 4880 - `No integrity protection` changed to `Null` **INCORRECT** should be `Unassigned`
 22. 4935 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
 23. 4949 - `4.02` changed to ``
+24. 4980 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+25. 5021 - `32` changed to `4` (Side note: the original errata is not 5021)
+26. 5049 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+27. 5053 - trivial
+28. 5054 - trivial
+29. 5055 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+30. 5127 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
