@@ -32,3 +32,14 @@ All the fixes in this document have been compared with ground truths and verifie
 28. 5054 - trivial
 29. 5055 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
 30. 5127 - I don't know how to fix this. Asked ChatGPT for fix [link](https://chatgpt.com/share/6ab82053-0288-83ea-8f74-25454bd94fc9)
+31. 5128 - I don't know how to fix this. Asked ChatGPT for fix [link](https://claude.ai/share/60961684-06ab-4f1e-acca-7181b0d2e037)
+32. 5131 - `the request MUST NOT be processed and a "404 Not Found" error response MUST be sent by the server` changed to `an <rpc-error> element is returned with an <error-tag> value of "data-missing"` **INCORRECT** should change from `"create"` to `"delete" or "move"`
+33. 5150 - `"endpoint": ["acq1.ucdn.example"],` changed to 
+
+```JSON
+"endpoints": [
+    "a.service123.ucdn.example",
+    "b.service123.ucdn.example"
+],
+```
+34. 
